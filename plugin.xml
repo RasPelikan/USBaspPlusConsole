@@ -11,10 +11,9 @@
          point="org.eclipse.ui.preferencePages">
       <page
             objectClass="org.eclipse.core.resources.IFile"
-            name="USBasp+ Configuration"
+            name="USBasp+ Console"
             class="com.raspelikan.usbaspconsole.PreferencesPage"
-            id="com.raspelikan.usbaspconsole.PreferencesPage"
-            category="de.innot.avreclipse.preferences.PreferencePage">
+            id="com.raspelikan.usbaspconsole.PreferencesPage">
       </page>
    </extension>
 
