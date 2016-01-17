@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/USBaspPlusConsoleFeature_1.0.0.201601172143.jar" id="USBaspPlusConsoleFeature" version="1.0.0.201601172143" os="linux,macosx,win32">
+      <category name="USBaspPlusConsoleCategory"/>
+   </feature>
+   <category-def name="USBaspPlusConsoleCategory" label="USBasp+ Console"/>
+</site>
