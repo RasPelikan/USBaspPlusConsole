@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: USBaspConsole
+Bundle-Name: USBasp+ Console
 Bundle-SymbolicName: USBaspPlusConsole;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: com.raspelikan.usbaspconsole.USBaspConsoleActivator
