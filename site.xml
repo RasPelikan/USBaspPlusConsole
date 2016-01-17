@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="RasPelikan GitHub USBasp+ Console" url="https://raspelikan.github.io/USBaspPlusConsole/">
+      An Eclipse plugin showing UART communication in Console View by using USBasp+ devices.
+   </description>
+   <feature url="features/USBaspPlusConsoleFeature_1.0.0.201601172201.jar" id="USBaspPlusConsoleFeature" version="1.0.0.201601172201" os="linux,macosx,win32">
+      <category name="USBaspPlusConsoleCategory"/>
+   </feature>
+   <category-def name="USBaspPlusConsoleCategory" label="USBasp+ Console"/>
+</site>
