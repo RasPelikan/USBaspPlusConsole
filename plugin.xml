@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.core.runtime.preferences">
+      <initializer class="com.raspelikan.usbaspconsole.PreferencesInitializer"/>
+   </extension>
+   
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            objectClass="org.eclipse.core.resources.IFile"
+            name="USBasp+ Configuration"
+            class="com.raspelikan.usbaspconsole.PreferencesPage"
+            id="com.raspelikan.usbaspconsole.PreferencesPage"
+            category="de.innot.avreclipse.preferences.PreferencePage">
+      </page>
+   </extension>
+
+   <extension point="org.eclipse.ui.startup">
+       <startup />
+   </extension>
+   
+   <extension point="org.eclipse.ui.console.consoleFactories">
+      <consoleFactory 
+         label="USBasp+ Console"
+         class="com.raspelikan.usbaspconsole.ConsoleLoggerFactory"
+         icon="icons/usbasp_console.png">
+      </consoleFactory>
+   </extension>
+
+</plugin>

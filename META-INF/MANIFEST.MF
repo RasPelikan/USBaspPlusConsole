@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: USBaspConsole
+Bundle-SymbolicName: USBaspPlusConsole;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.raspelikan.usbaspconsole.USBaspConsoleActivator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.core.resources,
+ de.innot.avreclipse.core,
+ org.eclipse.ui.console,
+ org.eclipse.e4.core.services
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .,
+ lib/commons-lang3-3.2.1.jar,
+ lib/usb4java-1.2.0.jar,
+ os/osx/x86/libusb4java-1.2.0-osx-x86.jar; osname=osx; processor=x86,
+ os/osx/x86_64/libusb4java-1.2.0-osx-x86_64.jar; osname=osx; processor=x86_64,
+ os/win32/x86/libusb4java-1.2.0-windows-x86.jar; osname=win32; processor=x86,
+ os/win32/x86_64/libusb4java-1.2.0-windows-x86_64.jar; osname=win32; processor=x86_64,
+ os/linux/x86/libusb4java-1.2.0-linux-x86.jar; osname=linux; processor=x86,
+ os/linux/x86_64/libusb4java-1.2.0-linux-x86_64.jar; osname=linux; processor=x86_64,
+ os/linux/arm/libusb4java-1.2.0-linux-arm.jar; osname=linux; processor=arm
